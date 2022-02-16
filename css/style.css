@@ -1,0 +1,15 @@
+.hamberger {
+    display: flex;
+    flex-direction: column;
+    width: 24px;
+    height: 24px;
+    margin: 12px;
+    justify-content: space-between;
+}
+
+.hamberger > span {
+    display: block;
+    width: 24px;
+    height: 1px;
+    background-color: black;
+}
