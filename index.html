@@ -13,9 +13,14 @@
     <header>
         <div class="headerleft">
             <div class="hamberger">
-                <span></span>
-                <span></span>
-                <span></span>
+                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
+                    class="style-scope yt-icon"
+                    style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                    <g class="style-scope yt-icon">
+                        <path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z" class="style-scope yt-icon">
+                        </path>
+                    </g>
+                </svg>
             </div>
 
             <div class="logo">
@@ -62,8 +67,8 @@
             </div>
         </div>
         <div class="search">
-            <input type="text">
-            <button class="texticon">
+            <input type="text" placeholder="검색">
+            <button class="searchicon">
                 <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="texticon"
                     style="pointer-events: none; display: block; width: 100%; height: 100%;">
                     <g class="style-scope yt-icon">
@@ -86,8 +91,8 @@
             </button>
         </div>
         <div class="headerright">
-            <nav class="rightmenuicon">
-                <button class="make">
+            <nav mclass="headericon">
+                <button class="headericon">
                     <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
                         class="style-scope yt-icon"
                         style="pointer-events: none; display: block; width: 100%; height: 100%;">
@@ -99,7 +104,7 @@
                     </svg>
                 </button>
 
-                <button class="app">
+                <button class="headericon">
                     <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
                         class="style-scope yt-icon"
                         style="pointer-events: none; display: block; width: 100%; height: 100%;">
@@ -111,7 +116,7 @@
                     </svg>
                 </button>
 
-                <button class="bell">
+                <button class="headericon">
                     <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
                         class="style-scope yt-icon"
                         style="pointer-events: none; display: block; width: 100%; height: 100%;">
@@ -123,16 +128,10 @@
                     </svg>
                 </button>
 
-                <button class="signin">
-                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
-                        class="style-scope yt-icon"
-                        style="pointer-events: none; display: block; width: 100%; height: 100%;">
-                        <g class="style-scope yt-icon">
-                            <path
-                                d="M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10C22,6.48,17.52,2,12,2z M12,3c4.96,0,9,4.04,9,9 c0,1.42-0.34,2.76-0.93,3.96c-1.53-1.72-3.98-2.89-7.38-3.03C14.57,12.6,16,10.97,16,9c0-2.21-1.79-4-4-4C9.79,5,8,6.79,8,9 c0,1.97,1.43,3.6,3.31,3.93c-3.4,0.14-5.85,1.31-7.38,3.03C3.34,14.76,3,13.42,3,12C3,7.04,7.04,3,12,3z M9,9c0-1.65,1.35-3,3-3 s3,1.35,3,3c0,1.65-1.35,3-3,3S9,10.65,9,9z M12,21c-3.16,0-5.94-1.64-7.55-4.12C6.01,14.93,8.61,13.9,12,13.9 c3.39,0,5.99,1.03,7.55,2.98C17.94,19.36,15.16,21,12,21z"
-                                class="style-scope yt-icon"></path>
-                        </g>
-                    </svg>로그인
+                <button class="myimgbtn">
+                    <div class="myimg">
+                        <img src="../웹3/youtube image/unnamed.jpg" alt="">
+                    </div>
                 </button>
             </nav>
         </div>
@@ -140,204 +139,219 @@
     <!-- 헤더끝 -->
 
     <!-- 영상제목 조회수 아이콘들 -->
-    <div class="mainsection">
-        <iframe width="737" height="415" src="https://www.youtube.com/embed/2XH43II3foI" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;    picture-in-picture"
-            allowfullscreen></iframe>
-    </div>
-    <div class="textcontainer">
-        <h1>↖멋짐 폭발↗ 독특크루 x 모니카의 특급 콜라보 퍼포먼스!
-            <span>#너목보9 #김종욱 #너의정체가보여</span>
-        </h1>
-    </div>
-    <div class="viewicon">
-        <div class="viewicontext">
-            <p>조회수 6,091,871회2018. 3. 23.</p>
+    <div class="allcontainer">
+        <div class="mainsection">
+            <iframe width="737" height="415" padding="56.25%" src="https://www.youtube.com/embed/2XH43II3foI"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;    picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <div class="textcontainer">
+            <h3 class="viewname">↖멋짐 폭발↗ 독특크루 x 모니카의 특급 콜라보 퍼포먼스!
+                <span>#너목보9 #김종욱 #너의정체가보여</span>
+            </h3>
+        </div>
+        <div class="viewicon">
+            <div class="viewicontext">
+                <p>조회수 6,091,871회2018. 3. 23.</p>
+            </div>
+
+            <div class="wiewiconright">
+                <button>
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
+                        class="style-scope yt-icon"
+                        style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                        <g class="style-scope yt-icon">
+                            <path
+                                d="M18.77,11h-4.23l1.52-4.94C16.38,5.03,15.54,4,14.38,4c-0.58,0-1.14,0.24-1.52,0.65L7,11H3v10h4h1h9.43 c1.06,0,1.98-0.67,2.19-1.61l1.34-6C21.23,12.15,20.18,11,18.77,11z M7,20H4v-8h3V20z M19.98,13.17l-1.34,6 C18.54,19.65,18.03,20,17.43,20H8v-8.61l5.6-6.06C13.79,5.12,14.08,5,14.38,5c0.26,0,0.5,0.11,0.63,0.3 c0.07,0.1,0.15,0.26,0.09,0.47l-1.52,4.94L13.18,12h1.35h4.23c0.41,0,0.8,0.17,1.03,0.46C19.92,12.61,20.05,12.86,19.98,13.17z"
+                                class="style-scope yt-icon"></path>
+                        </g>
+                    </svg>
+                </button>
+                <div class="wiewiconrighttext">
+                    <span>466</span>
+                </div>
+
+                <button>
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
+                        class="style-scope yt-icon"
+                        style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                        <g class="style-scope yt-icon">
+                            <path
+                                d="M17,4h-1H6.57C5.5,4,4.59,4.67,4.38,5.61l-1.34,6C2.77,12.85,3.82,14,5.23,14h4.23l-1.52,4.94C7.62,19.97,8.46,21,9.62,21 c0.58,0,1.14-0.24,1.52-0.65L17,14h4V4H17z M10.4,19.67C10.21,19.88,9.92,20,9.62,20c-0.26,0-0.5-0.11-0.63-0.3 c-0.07-0.1-0.15-0.26-0.09-0.47l1.52-4.94l0.4-1.29H9.46H5.23c-0.41,0-0.8-0.17-1.03-0.46c-0.12-0.15-0.25-0.4-0.18-0.72l1.34-6 C5.46,5.35,5.97,5,6.57,5H16v8.61L10.4,19.67z M20,13h-3V5h3V13z"
+                                class="style-scope yt-icon"></path>
+                        </g>
+                    </svg>
+                </button>
+                <div class="wiewiconrighttext">
+                    <span>싫어요</span>
+                </div>
+
+                <button>
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
+                        class="style-scope yt-icon"
+                        style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                        <g mirror-in-rtl="" class="style-scope yt-icon">
+                            <path
+                                d="M15,5.63L20.66,12L15,18.37V15v-1h-1c-3.96,0-7.14,1-9.75,3.09c1.84-4.07,5.11-6.4,9.89-7.1L15,9.86V9V5.63 M14,3v6 C6.22,10.13,3.11,15.33,2,21c2.78-3.97,6.44-6,12-6v6l8-9L14,3L14,3z"
+                                class="style-scope yt-icon"></path>
+                        </g>
+                    </svg>
+                </button>
+                <div class="wiewiconrighttext">
+                    <span>공유</span>
+                </div>
+
+                <button>
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
+                        class="style-scope yt-icon"
+                        style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                        <g class="style-scope yt-icon">
+                            <path
+                                d="M22,13h-4v4h-2v-4h-4v-2h4V7h2v4h4V13z M14,7H2v1h12V7z M2,12h8v-1H2V12z M2,16h8v-1H2V16z"
+                                class="style-scope yt-icon"></path>
+                        </g>
+                    </svg>
+                </button>
+                <div class="wiewiconrighttext">
+                    <span>저장</span>
+                </div>
+
+                <button>
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
+                        class="style-scope yt-icon"
+                        style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                        <g class="style-scope yt-icon">
+                            <path
+                                d="M7.5,12c0,0.83-0.67,1.5-1.5,1.5S4.5,12.83,4.5,12s0.67-1.5,1.5-1.5S7.5,11.17,7.5,12z M12,10.5c-0.83,0-1.5,0.67-1.5,1.5 s0.67,1.5,1.5,1.5s1.5-0.67,1.5-1.5S12.83,10.5,12,10.5z M18,10.5c-0.83,0-1.5,0.67-1.5,1.5s0.67,1.5,1.5,1.5s1.5-0.67,1.5-1.5 S18.83,10.5,18,10.5z"
+                                class="style-scope yt-icon"></path>
+                        </g>
+                    </svg>
+                </button>
+            </div>
         </div>
 
-        <div class="wiewiconright">
+
+        <!-- 채널시작 -->
+        <div class="channel">
+            <div class="profile">
+                <a href="#">
+                    <figure>
+                        <img src="엠넷.jpg" alt="" class="leftpfimg">
+                    </figure>
+                    <h4>Mnet TV</h4>
+                </a>
+                <p>구독자 878만명</p>
+                <button class="redbtn">구독</button>
+            </div>
+            <div class="channelText">
+                <p>↖멋짐 폭발↗ 독특크루 x 모니카의 특급 콜라보 퍼포먼스!
+                <p>#너목보9 #김종욱 #너의정체가보여</p>보9 듣9 즐기9 맞히9!<p>
+                    <button class="plusview">더보기</button>
+            </div>
+        </div>
+
+        <!-- 댓글시작 -->
+        <div class="myCommentsup">
+            <p>댓글 19개</p>
             <button>
                 <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
                     class="style-scope yt-icon"
                     style="pointer-events: none; display: block; width: 100%; height: 100%;">
                     <g class="style-scope yt-icon">
-                        <path
-                            d="M18.77,11h-4.23l1.52-4.94C16.38,5.03,15.54,4,14.38,4c-0.58,0-1.14,0.24-1.52,0.65L7,11H3v10h4h1h9.43 c1.06,0,1.98-0.67,2.19-1.61l1.34-6C21.23,12.15,20.18,11,18.77,11z M7,20H4v-8h3V20z M19.98,13.17l-1.34,6 C18.54,19.65,18.03,20,17.43,20H8v-8.61l5.6-6.06C13.79,5.12,14.08,5,14.38,5c0.26,0,0.5,0.11,0.63,0.3 c0.07,0.1,0.15,0.26,0.09,0.47l-1.52,4.94L13.18,12h1.35h4.23c0.41,0,0.8,0.17,1.03,0.46C19.92,12.61,20.05,12.86,19.98,13.17z"
-                            class="style-scope yt-icon"></path>
+                        <path d="M21,6H3V5h18V6z M15,11H3v1h12V11z M9,17H3v1h6V17z" class="style-scope yt-icon"></path>
                     </g>
-                </svg>좋아요
-            </button>
-
-            <button>
-                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
-                    class="style-scope yt-icon"
-                    style="pointer-events: none; display: block; width: 100%; height: 100%;">
-                    <g class="style-scope yt-icon">
-                        <path
-                            d="M17,4h-1H6.57C5.5,4,4.59,4.67,4.38,5.61l-1.34,6C2.77,12.85,3.82,14,5.23,14h4.23l-1.52,4.94C7.62,19.97,8.46,21,9.62,21 c0.58,0,1.14-0.24,1.52-0.65L17,14h4V4H17z M10.4,19.67C10.21,19.88,9.92,20,9.62,20c-0.26,0-0.5-0.11-0.63-0.3 c-0.07-0.1-0.15-0.26-0.09-0.47l1.52-4.94l0.4-1.29H9.46H5.23c-0.41,0-0.8-0.17-1.03-0.46c-0.12-0.15-0.25-0.4-0.18-0.72l1.34-6 C5.46,5.35,5.97,5,6.57,5H16v8.61L10.4,19.67z M20,13h-3V5h3V13z"
-                            class="style-scope yt-icon"></path>
-                    </g>
-                </svg>싫어요
-            </button>
-
-            <button>
-                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
-                    class="style-scope yt-icon"
-                    style="pointer-events: none; display: block; width: 100%; height: 100%;">
-                    <g mirror-in-rtl="" class="style-scope yt-icon">
-                        <path
-                            d="M15,5.63L20.66,12L15,18.37V15v-1h-1c-3.96,0-7.14,1-9.75,3.09c1.84-4.07,5.11-6.4,9.89-7.1L15,9.86V9V5.63 M14,3v6 C6.22,10.13,3.11,15.33,2,21c2.78-3.97,6.44-6,12-6v6l8-9L14,3L14,3z"
-                            class="style-scope yt-icon"></path>
-                    </g>
-                </svg>공유
-            </button>
-
-            <button>
-                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
-                    class="style-scope yt-icon"
-                    style="pointer-events: none; display: block; width: 100%; height: 100%;">
-                    <g class="style-scope yt-icon">
-                        <path
-                            d="M22,13h-4v4h-2v-4h-4v-2h4V7h2v4h4V13z M14,7H2v1h12V7z M2,12h8v-1H2V12z M2,16h8v-1H2V16z"
-                            class="style-scope yt-icon"></path>
-                    </g>
-                </svg>저장
-            </button>
-
-            <button>
-                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
-                    class="style-scope yt-icon"
-                    style="pointer-events: none; display: block; width: 100%; height: 100%;">
-                    <g class="style-scope yt-icon">
-                        <path
-                            d="M7.5,12c0,0.83-0.67,1.5-1.5,1.5S4.5,12.83,4.5,12s0.67-1.5,1.5-1.5S7.5,11.17,7.5,12z M12,10.5c-0.83,0-1.5,0.67-1.5,1.5 s0.67,1.5,1.5,1.5s1.5-0.67,1.5-1.5S12.83,10.5,12,10.5z M18,10.5c-0.83,0-1.5,0.67-1.5,1.5s0.67,1.5,1.5,1.5s1.5-0.67,1.5-1.5 S18.83,10.5,18,10.5z"
-                            class="style-scope yt-icon"></path>
-                    </g>
-                </svg>
+                </svg> 정렬기준
             </button>
         </div>
-    </div>
-
-
-    <!-- 채널시작 -->
-    <div class="channel">
-        <div class="profile">
-            <a href="#">
-                <figure>
-                    <img src="엠넷.jpg" alt="" class="leftpfimg">
-                </figure>
-                <h4>Mnet TV</h4>
-            </a>
-            <p>구독자 878만명</p>
-            <button class="redbtn">구독</button>
-        </div>
-        <div class="channelText">
-            <p>↖멋짐 폭발↗ 독특크루 x 모니카의 특급 콜라보 퍼포먼스!
-            <p>#너목보9 #김종욱 #너의정체가보여</p>보9 듣9 즐기9 맞히9!<p>
-                <button class="plusview">더보기</button>
-        </div>
-    </div>
-
-    <!-- 댓글시작 -->
-    <div class="myCommentsup">
-        <p>댓글 19개</p>
-        <button>
-            <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon"
-                style="pointer-events: none; display: block; width: 100%; height: 100%;">
-                <g class="style-scope yt-icon">
-                    <path d="M21,6H3V5h18V6z M15,11H3v1h12V11z M9,17H3v1h6V17z" class="style-scope yt-icon"></path>
-                </g>
-            </svg> 정렬기준
-        </button>
-    </div>
-    <div class="myComments">
-        <figure>
-            <img src="" alt="">
-        </figure>
-        <input type="text" placeholder="공개댓글추가">
-    </div>
-
-    <div class="Commentsbox">
-        <div class="Comments">
-            <a href="#">
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <span>J</span>
-                <span>15시간 전</span>
-            </a>
-            <p>님들아 독특크루 기억하세요 진짜 세계적으로 유명해질듯</p>
+        <div class="myComments">
+            <figure>
+                <img src="" alt="">
+            </figure>
+            <input type="text" placeholder="공개댓글추가">
         </div>
 
+        <div class="Commentsbox">
+            <div class="Comments">
+                <a href="#">
+                    <figure>
+                        <img src="" alt="">
+                    </figure>
+                    <span>J</span>
+                    <span>15시간 전</span>
+                </a>
+                <p>님들아 독특크루 기억하세요 진짜 세계적으로 유명해질듯</p>
+            </div>
 
-        <div class="Comments">
-            <a href="#">
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <span>J</span>
-                <span>15시간 전</span>
-            </a>
-            <p>님들아 독특크루 기억하세요 진짜 세계적으로 유명해질듯</p>
-        </div>
 
-        <div class="Comments">
-            <a href="#">
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <span>J</span>
-                <span>15시간 전</span>
-            </a>
-            <p>님들아 독특크루 기억하세요 진짜 세계적으로 유명해질듯</p>
-        </div>
+            <div class="Comments">
+                <a href="#">
+                    <figure>
+                        <img src="" alt="">
+                    </figure>
+                    <span>J</span>
+                    <span>15시간 전</span>
+                </a>
+                <p>님들아 독특크루 기억하세요 진짜 세계적으로 유명해질듯</p>
+            </div>
 
-        <div class="Comments">
-            <a href="#">
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <span>J</span>
-                <span>15시간 전</span>
-            </a>
-            <p>님들아 독특크루 기억하세요 진짜 세계적으로 유명해질듯</p>
-        </div>
+            <div class="Comments">
+                <a href="#">
+                    <figure>
+                        <img src="" alt="">
+                    </figure>
+                    <span>J</span>
+                    <span>15시간 전</span>
+                </a>
+                <p>님들아 독특크루 기억하세요 진짜 세계적으로 유명해질듯</p>
+            </div>
 
-        <div class="Comments">
-            <a href="#">
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <span>J</span>
-                <span>15시간 전</span>
-            </a>
-            <p>님들아 독특크루 기억하세요 진짜 세계적으로 유명해질듯</p>
-        </div>
+            <div class="Comments">
+                <a href="#">
+                    <figure>
+                        <img src="" alt="">
+                    </figure>
+                    <span>J</span>
+                    <span>15시간 전</span>
+                </a>
+                <p>님들아 독특크루 기억하세요 진짜 세계적으로 유명해질듯</p>
+            </div>
 
-        <div class="Comments">
-            <a href="#">
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <span>J</span>
-                <span>15시간 전</span>
-            </a>
-            <p>님들아 독특크루 기억하세요 진짜 세계적으로 유명해질듯</p>
-        </div>
+            <div class="Comments">
+                <a href="#">
+                    <figure>
+                        <img src="" alt="">
+                    </figure>
+                    <span>J</span>
+                    <span>15시간 전</span>
+                </a>
+                <p>님들아 독특크루 기억하세요 진짜 세계적으로 유명해질듯</p>
+            </div>
 
-        <div class="Comments">
-            <a href="#">
-                <figure>
-                    <img src="" alt="">
-                </figure>
-                <span>J</span>
-                <span>15시간 전</span>
-            </a>
-            <p>님들아 독특크루 기억하세요 진짜 세계적으로 유명해질듯</p>
+            <div class="Comments">
+                <a href="#">
+                    <figure>
+                        <img src="" alt="">
+                    </figure>
+                    <span>J</span>
+                    <span>15시간 전</span>
+                </a>
+                <p>님들아 독특크루 기억하세요 진짜 세계적으로 유명해질듯</p>
+            </div>
+
+            <div class="Comments">
+                <a href="#">
+                    <figure>
+                        <img src="" alt="">
+                    </figure>
+                    <span>J</span>
+                    <span>15시간 전</span>
+                </a>
+                <p>님들아 독특크루 기억하세요 진짜 세계적으로 유명해질듯</p>
+            </div>
         </div>
     </div>
-
     <!-- right video -->
     <div class="rightvideocontainer">
         <div class="wrapper">
