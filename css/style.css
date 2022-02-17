@@ -102,7 +102,7 @@ header {
     height: 32px;
     border-radius: 50%;
     align-items: center;
-
+    margin-right: 20px;
 }
 
 .allcontainer {
@@ -130,6 +130,7 @@ header {
     font-family: "Roboto","Arial",sans-serif;
     font-size: 20px;
     font-weight: 400;
+    margin-top: 0;
 }
 
 .textcontainer span {
@@ -154,4 +155,8 @@ header {
     height: 40px;
     align-items: center;
     display: flex;
+}
+
+.main-textcontainer {
+    border-bottom: 1px solid #ddd;
 }
