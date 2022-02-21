@@ -1,0 +1,443 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 999;
+}
+.headerleft{
+    display: flex;
+    align-items: center;
+}
+.hamberger {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    margin: 10px  5px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.hamberger svg {
+    padding: 8px;
+}
+
+.logo {
+    width: 90px;
+    height: 20px;
+    top: 0;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 750px;
+}
+
+.search input {
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    outline-color: blue;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 400;
+    border-radius: 2px 0 0 2px;
+}
+
+.searchicon {
+    width: 64px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    background: #f1f1f1;
+    cursor: pointer;
+}
+
+.voiceicon {
+    width: 45px;
+    height: 40px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    margin-left: 5px;
+    background: #f1f1f1;
+    cursor: pointer;
+}
+
+.voiceicon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.headerright {
+    align-items: center;
+    display: flex;
+}
+
+.headericon {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    align-items: center;
+    border: none;
+    background:none;
+    cursor: pointer;
+}
+.myimgbtn {
+    border: none;
+    background:none;
+    cursor: pointer;
+}
+.myimg img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.allcontainer {
+    width: 100%;
+    background: #f1f1f1;
+}
+
+.mainsection {
+    width: 100%;
+    display: flex;
+    padding-top: 56.25%;
+    position: relative;
+    top: 0;
+}
+
+.mainsection iframe {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    padding-top: 56px;
+}
+
+.viewname {
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 75px;
+}
+
+.textcontainer span {
+    color: rgb(7, 72, 252);
+}
+
+.viewicon {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.viewicontext {
+    margin-top: 0;
+    color: #777;
+}
+
+.viewiconrightcontainer {
+    width: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-textcontainer {
+    border-bottom: 1px solid #ddd;
+}
+
+.viewiconright {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border: none;
+    background: none;
+}
+
+.channel {
+    width: 100%;
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    height: 48px;
+    padding-top: 16px;
+} 
+
+.leftpfimg {
+    border-radius: 50%;
+    margin: 0;
+    width: 48px;
+    height: 48px;
+    display: flex;
+}
+
+.Mnettvtext {
+    display: flex;
+    flex-direction: column;
+    width: 100%;   
+    font-size: 15px; 
+    height: 50px;
+    margin-left: 15px;
+    padding-top: 5px;
+}
+.Mnettvtext h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.gray {
+    color: gray;
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.redbtn {
+    width: 72px;
+    height: 38px;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-top: 5px;
+    border: none;
+    background-color: red;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.channeltextwidth {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.channelText {
+    width: 1100px;
+    margin-left: 64px;
+    display: block;
+}
+
+.blue {
+    color: rgb(7, 72, 252);
+}
+
+.plusview {
+    background: none;
+    border: none;
+    color: #777;
+    font-size: 13px;
+    left: 0;
+    margin-top: 8px;
+    padding-bottom: 16px;
+}
+
+.plusviewbox {
+    margin: 0;
+    top: 0;
+}
+
+.svgbtn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    margin-left: 15px;
+}
+
+.myCommentsup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.svgbtn svg {
+    width: 24px;
+    height: 24px;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.myComments {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.myComments input {
+    border-bottom: 1px solid #ddd;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 95%;
+    height: 25px;
+    background: #f1f1f1;
+}
+
+.myComments input:focus {
+    border-bottom: 1px solid #555;
+    outline: none;
+}
+
+.Comments {
+    width: 85%;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.Commentstextsvg {
+    width: 16px;
+    height: 16px;
+    display: flex;
+}
+
+.Commentstext p {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.min {
+    color: #888;
+    font-size: 12px;
+}
+
+.svgsvg {
+    width: 16px;
+    height: 16px;
+    padding: 16PX;
+}
+
+.likebox {
+    display: flex;
+    align-items: center;
+}
+
+.likebox p {
+    margin: 0;
+    color: #999;
+    font-size: 13px;
+}
+
+.rightvideocontainer {
+    display: flex;
+    flex-direction: column;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    height: 94px;
+    cursor: pointer;
+}
+
+.rightvideo img {
+    width: 168px;
+    height: 94px;
+}
+
+.more {
+    width: 24px;
+    height: 24px;
+    display: none;
+}
+
+.wrapper:hover .more {
+    display: block;
+}
+.flex {
+    display: flex;
+}
+
+.rightvideotext{
+    width: 95%;
+}
+.rightvideotext p {
+    margin: 0;
+    margin-left: 8px;
+}
+
+.smallgray {
+    font-size: 13px;
+    color: #777;
+}
+
+.rightvideocontainer {
+    display: none;
+}
+
+.all-box {
+    width: 68%;
+    float: left;
+    background: #f1f1f1;
+    display: flex;
+}
+
+.evebox {
+    width: 85%;
+    justify-content: right;
+    margin: auto;
+    margin-right: 0;
+    padding: 20px;
+}
+
+.rightvideocontainer-right {
+    width: 32%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin-top: 56px;
+    padding-top: 20px;
+    background: #f1f1f1;
+}
+
+.rightpadding {
+    width: 75%;
+    margin-left: 0;
+    padding-right: 50px;
+    margin: 0%;
+}
+.wrapper-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.rightvideotextname {
+    overflow: hidden;
+}
+@media screen and (max-width: 960px) {
+    .rightvideocontainer-right {
+        display: none;
+    }
+    .rightvideocontainer {
+        display: block;
+    }
+    .all-box {
+        width: 100%;
+    }
+}
