@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -13,20 +14,23 @@ header {
     background: #fff;
     z-index: 999;
 }
-.headerleft{
+
+.headerleft {
     display: flex;
     align-items: center;
 }
+
 .hamberger {
     display: flex;
     flex-direction: column;
     width: 40px;
     height: 40px;
     padding: 8px;
-    margin: 10px  5px;
+    margin: 10px 5px;
     justify-content: space-between;
     cursor: pointer;
 }
+
 .hamberger svg {
     padding: 8px;
 }
@@ -53,7 +57,7 @@ header {
     font-size: 15px;
     padding: 10px;
     font-weight: 400;
-    border-radius: 2px 0 0 2px;
+    border-radius: 24px 0 0 24px;
 }
 
 .searchicon {
@@ -61,7 +65,8 @@ header {
     height: 40px;
     padding: 5px;
     border: 1px solid #ddd;
-    border-radius: 2px;
+    border-left: none;
+    border-radius: 0 24px 24px 0;
     background: #f1f1f1;
     cursor: pointer;
 }
@@ -88,20 +93,38 @@ header {
     display: flex;
 }
 
+.headerright > .header_right_icon {
+    display: flex;
+}
+
 .headericon {
     width: 40px;
     height: 40px;
     padding: 8px;
     align-items: center;
     border: none;
-    background:none;
+    background: none;
     cursor: pointer;
 }
+
+.headericon.making {
+    display: flex;
+    width: 100px;
+    background: #f1f1f1;
+    border-radius: 24px;
+}
+
+.headericon.making > span {
+    width: 80px;
+    margin-right: 8px;
+}
+
 .myimgbtn {
     border: none;
-    background:none;
+    background: none;
     cursor: pointer;
 }
+
 .myimg img {
     width: 32px;
     height: 32px;
@@ -132,7 +155,7 @@ header {
 }
 
 .viewname {
-    font-family: "Roboto","Arial",sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
     font-size: 20px;
     font-weight: 400;
     margin-top: 75px;
@@ -181,7 +204,7 @@ header {
     display: flex;
     height: 48px;
     padding-top: 16px;
-} 
+}
 
 .leftpfimg {
     border-radius: 50%;
@@ -194,12 +217,13 @@ header {
 .Mnettvtext {
     display: flex;
     flex-direction: column;
-    width: 100%;   
-    font-size: 15px; 
+    width: 100%;
+    font-size: 15px;
     height: 50px;
     margin-left: 15px;
     padding-top: 5px;
 }
+
 .Mnettvtext h4 {
     margin-bottom: 0;
     margin-top: 0;
@@ -346,6 +370,7 @@ figure img {
     display: flex;
     flex-direction: column;
 }
+
 .wrapper {
     display: flex;
     justify-content: space-between;
@@ -369,13 +394,15 @@ figure img {
 .wrapper:hover .more {
     display: block;
 }
+
 .flex {
     display: flex;
 }
 
-.rightvideotext{
+.rightvideotext {
     width: 95%;
 }
+
 .rightvideotext p {
     margin: 0;
     margin-left: 8px;
@@ -421,6 +448,7 @@ figure img {
     padding-right: 50px;
     margin: 0%;
 }
+
 .wrapper-top {
     display: flex;
     justify-content: space-between;
@@ -430,13 +458,16 @@ figure img {
 .rightvideotextname {
     overflow: hidden;
 }
+
 @media screen and (max-width: 960px) {
     .rightvideocontainer-right {
         display: none;
     }
+
     .rightvideocontainer {
         display: block;
     }
+
     .all-box {
         width: 100%;
     }
